@@ -32,7 +32,7 @@ All PRs require passing CI before merge.
 - [ ] Add `pnpm-workspace.yaml`
 - [ ] Add `.gitignore` — covers `node_modules/`, `target/`, `.env`, `dist/`, `*.gguf`
 - [ ] Add `.editorconfig` — UTF-8, LF, 4-space indent Rust, 2-space TS/Svelte
-- [ ] Add `Cargo.toml` — workspace manifest, Rust edition = 2021
+- [ ] Add `Cargo.toml` — workspace manifest, `edition = "2024"`, `rust-version = "1.85"`
 - [ ] Add `package.json` — root scripts: `dev`, `build`, `tauri:dev`, `tauri:build`
 - [ ] Verify `pnpm tauri dev` launches empty window on dev machine
 
@@ -48,6 +48,7 @@ All PRs require passing CI before merge.
   - [ ] Upload artifacts to GitHub Release draft
   - [ ] [SEC] Verify binaries built from tagged commit, not `main` tip
 - [ ] Add `dependabot.yml` — weekly updates for `cargo` and `npm` ecosystems
+- [ ] Add `pre-commit` hooks — `cargo fmt --check`, `cargo clippy -- -D warnings`, `pnpm check` (Svelte type-check)
 
 ### 3. Rust core — hardware `[BLOCK]`
 

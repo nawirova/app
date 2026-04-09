@@ -63,6 +63,9 @@ coverage/
 .cache/
 .parcel-cache/
 
+# Model files
+*.gguf
+
 # OS files
 .DS_Store
 .DS_Store?

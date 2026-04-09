@@ -1,0 +1,18 @@
+{
+  "name": "nawirova",
+  "version": "0.1.0",
+  "description": "AI assistant for your computer. Free forever. Works offline.",
+  "license": "MIT OR Apache-2.0",
+  "scripts": {
+    "dev": "pnpm --filter src dev",
+    "build": "pnpm --filter src build",
+    "tauri:dev": "pnpm tauri dev",
+    "tauri:build": "pnpm tauri build",
+    "check": "pnpm --filter src check",
+    "test": "pnpm --filter src test && cargo test"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
