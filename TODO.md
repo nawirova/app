@@ -25,7 +25,7 @@ All PRs require passing CI before merge.
 - [x] Add `.github/CODEOWNERS` — assign as sole owner for v0.1.0
 - [x] Add `.github/pull_request_template.md` — checklist: tests pass, i18n updated, platform tested
 
-### 1. Repository scaffolding `[BLOCK]`
+### 1. Repository scaffolding
 
 - [x] `cargo init src-tauri` — Rust workspace, `tauri` + `sysinfo` dependencies
 - [x] `pnpm create svelte src` — SvelteKit inside Tauri project structure
