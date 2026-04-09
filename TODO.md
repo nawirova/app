@@ -27,14 +27,14 @@ All PRs require passing CI before merge.
 
 ### 1. Repository scaffolding `[BLOCK]`
 
-- [ ] `cargo init src-tauri` — Rust workspace, `tauri` + `sysinfo` dependencies
-- [ ] `pnpm create svelte src` — SvelteKit inside Tauri project structure
-- [ ] Add `pnpm-workspace.yaml`
-- [ ] Add `.gitignore` — covers `node_modules/`, `target/`, `.env`, `dist/`, `*.gguf`
-- [ ] Add `.editorconfig` — UTF-8, LF, 4-space indent Rust, 2-space TS/Svelte
-- [ ] Add `Cargo.toml` — workspace manifest, `edition = "2024"`, `rust-version = "1.85"`
-- [ ] Add `package.json` — root scripts: `dev`, `build`, `tauri:dev`, `tauri:build`
-- [ ] Verify `pnpm tauri dev` launches empty window on dev machine
+- [x] `cargo init src-tauri` — Rust workspace, `tauri` + `sysinfo` dependencies
+- [x] `pnpm create svelte src` — SvelteKit inside Tauri project structure
+- [x] Add `pnpm-workspace.yaml`
+- [x] Add `.gitignore` — covers `node_modules/`, `target/`, `.env`, `dist/`, `*.gguf`
+- [x] Add `.editorconfig` — UTF-8, LF, 4-space indent Rust, 2-space TS/Svelte
+- [x] Add `Cargo.toml` — workspace manifest, `edition = "2024"`, `rust-version = "1.85"`
+- [x] Add `package.json` — root scripts: `dev`, `build`, `tauri:dev`, `tauri:build`
+- [x] Verify `pnpm tauri dev` launches empty window on dev machine
 
 ### 2. CI/CD baseline `[BLOCK]`
 

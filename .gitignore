@@ -1,5 +1,7 @@
 # Rust / Cargo
 /src-tauri/target/
+*/target/
+**/target/
 **/*.rs.bk
 Cargo.lock
 *.so
