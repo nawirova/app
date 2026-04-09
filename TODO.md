@@ -19,11 +19,11 @@ All PRs require passing CI before merge.
 
 ### 0. License & governance (prerequisite — do before any code)
 
-- [ ] Confirm license: MIT OR Apache-2.0 in `LICENSE-MIT` and `LICENSE-APACHE`
-- [ ] Add `SPDX-License-Identifier: MIT OR Apache-2.0` header policy to CONTRIBUTING.md
-- [ ] Add `SECURITY.md` — responsible disclosure contact, no bounty statement
-- [ ] Add `.github/CODEOWNERS` — assign as sole owner for v0.1.0
-- [ ] Add `.github/pull_request_template.md` — checklist: tests pass, i18n updated, platform tested
+- [x] Confirm license: MIT OR Apache-2.0 in `LICENSE-MIT` and `LICENSE-APACHE`
+- [x] Add `SPDX-License-Identifier: MIT OR Apache-2.0` header policy to CONTRIBUTING.md
+- [x] Add `SECURITY.md` — responsible disclosure contact, no bounty statement
+- [x] Add `.github/CODEOWNERS` — assign as sole owner for v0.1.0
+- [x] Add `.github/pull_request_template.md` — checklist: tests pass, i18n updated, platform tested
 
 ### 1. Repository scaffolding `[BLOCK]`
 

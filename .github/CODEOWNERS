@@ -1,0 +1,11 @@
+# Code Owners for Nawirova v0.1.0
+# https://help.github.com/articles/about-codeowners/
+
+# Global ownership - sole owner for v0.1.0
+* @SHA888
+
+# Documentation
+*.md @SHA888
+
+# CI/CD workflows
+.github/workflows/ @SHA888
