@@ -36,19 +36,19 @@ All PRs require passing CI before merge.
 - [x] Add `package.json` — root scripts: `dev`, `build`, `tauri:dev`, `tauri:build`
 - [x] Verify `pnpm tauri dev` launches empty window on dev machine
 
-### 2. CI/CD baseline `[BLOCK]`
+### 2. CI/CD baseline
 
-- [ ] `.github/workflows/ci.yml` — trigger: push to `main` and all PRs
-  - [ ] Job: `check` — `cargo check`, `cargo clippy -- -D warnings`
-  - [ ] Job: `test` — `cargo test`, `pnpm test`
-  - [ ] Job: `build` — `pnpm tauri build` on ubuntu-latest (smoke build)
-  - [ ] Cache: `~/.cargo/registry`, `node_modules/` via actions/cache
-- [ ] `.github/workflows/release.yml` — trigger: push tag `v*.*.*`
-  - [ ] Build matrix: `windows-latest`, `macos-latest`, `ubuntu-latest`
-  - [ ] Upload artifacts to GitHub Release draft
-  - [ ] [SEC] Verify binaries built from tagged commit, not `main` tip
-- [ ] Add `dependabot.yml` — weekly updates for `cargo` and `npm` ecosystems
-- [ ] Add `pre-commit` hooks — `cargo fmt --check`, `cargo clippy -- -D warnings`, `pnpm check` (Svelte type-check)
+- [x] `.github/workflows/ci.yml` — trigger: push to `main` and all PRs
+  - [x] Job: `check` — `cargo check`, `cargo clippy -- -D warnings`
+  - [x] Job: `test` — `cargo test`, `pnpm test`
+  - [x] Job: `build` — `pnpm tauri build` on ubuntu-latest (smoke build)
+  - [x] Cache: `~/.cargo/registry`, `node_modules/` via actions/cache
+- [x] `.github/workflows/release.yml` — trigger: push tag `v*.*.*`
+  - [x] Build matrix: `windows-latest`, `macos-latest`, `ubuntu-latest`
+  - [x] Upload artifacts to GitHub Release draft
+  - [x] [SEC] Verify binaries built from tagged commit, not `main` tip
+- [x] Add `dependabot.yml` — weekly updates for `cargo` and `npm` ecosystems
+- [x] Add `pre-commit` hooks — `cargo fmt --check`, `cargo clippy -- -D warnings`, `pnpm check` (Svelte type-check)
 
 ### 3. Rust core — hardware `[BLOCK]`
 
