@@ -1,0 +1,74 @@
+# Rust / Cargo
+/src-tauri/target/
+**/*.rs.bk
+Cargo.lock
+*.so
+*.dylib
+*.dll
+
+# Node.js / pnpm
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.pnpm-error.log*
+package-lock.json
+yarn.lock
+.pnp.cjs
+.pnp.loader.mjs
+
+# Build outputs
+dist/
+build/
+.svelte-kit/
+/output/
+/.svelte-kit/
+
+# Tauri
+/src-tauri/gen/
+/src-tauri/target/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+
+# IDE / Editor
+.idea/
+.vscode/
+.windsurf/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
