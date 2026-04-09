@@ -1,0 +1,7 @@
+# Rustfmt configuration for Nawirova
+
+# Exclude paths from formatting
+ignore = ["src-tauri/target", "src-tauri/gen", "node_modules"]
+
+# Use 2024 edition
+edition = "2024"

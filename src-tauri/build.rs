@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 
 fn main() {
-    nawirova_tauri::run()
+    tauri_build::build()
 }
